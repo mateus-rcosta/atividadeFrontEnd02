@@ -4,7 +4,7 @@ document.getElementById('formEndereco').addEventListener('submit', async(event)=
     const rua = document.getElementById('rua').value;
     const cidade = document.getElementById('cidade').value;
     const estado = document.getElementById('estado').value;
-    const cep = documento.getElementById('cep').value;
+    const cep = document.getElementById('cep').value;
 
     const addressData = {
         rua,
